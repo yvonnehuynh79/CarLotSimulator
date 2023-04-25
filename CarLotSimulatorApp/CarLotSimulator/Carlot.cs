@@ -8,7 +8,8 @@ namespace CarLotSimulator
 		public Carlot()
 		{
 		}
-		public List<Car> Car = new List<Car>();
+        public static int numberOfCars = 0;
+        public List<Car> Car = new List<Car>();
 		 
 	}
 }
